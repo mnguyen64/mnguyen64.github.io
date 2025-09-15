@@ -18,7 +18,7 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "MichaelNg.pdf", title:"Resume", icon:home}
+  - {file: "/MichaelNg.pdf", title:"Resume", icon:file-pdf}
   - {title: "Automated Game Bot", url:""}
   - {title: "Spotify Music Controller", url:""}
   - {title: "Discord Music Bot", url:""}
