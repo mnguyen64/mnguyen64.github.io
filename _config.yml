@@ -24,6 +24,7 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {title: "Discord Music Bot", url:""}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
+  - {file: "/MichaelNg.pdf", title:"Resume", icon:file-pdf}
   - {title: Mail, icon: envelope, url: "mailto:mnguyen4527@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/mnguyen64"}
   - {title: LinkedIn, icon: linkedin-in, url: "https://linkedin.com/in/mnguyen64"}
