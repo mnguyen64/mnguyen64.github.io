@@ -1,21 +1,6 @@
 ---
-layout: default
-title: "Home"
+layout: page
+title: "About Me"
 ---
 
-{% if site.show_excerpts %}
-  {% for post in site.posts %}
-    <article>
-      {% include meta.html post=post %}
-      {{ post.excerpt }}
-      <footer class="button"><a href="{{ post.url | relative_url }}">read more</a></footer>
-    </article>
-  {% endfor %}
-{% else %}
-  {% capture source %}{% include_relative archive.html title="Posts" %}{% endcapture %}
-  {{ source | split: "---" | last }}
- <section class="about">
-    <h2>About Me</h2>
-    <p>Hello, I’m Michael Nguyen, and this is my blog.</p>
-  </section>
-{% endif %}
+Detail-oriented and results-driven software developer with a passion for developing innovative solutions. Proﬁcient in Java and C#, with a strong background in designing and developing quality solutions through professional and hands-on projects. Seeking opportunities to leverage technical expertise and innovative thinking to drive impactful projects in a dynamic team setting. Eager to collaborate with development teams to build robust and sustainable software solutions.
