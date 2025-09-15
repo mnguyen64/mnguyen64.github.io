@@ -14,4 +14,8 @@ title: "Home"
 {% else %}
   {% capture source %}{% include_relative archive.html title="Posts" %}{% endcapture %}
   {{ source | split: "---" | last }}
+ <section class="about">
+    <h2>About Me</h2>
+    <p>Hello, I’m Michael Nguyen, and this is my blog.</p>
+  </section>
 {% endif %}
