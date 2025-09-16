@@ -18,13 +18,13 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {url: "/MichaelNg.pdf", title:"Resume", icon:file-pdf}
+  - {title: "Resume", icon: file-pdf, url: "/MichaelNg.pdf"}
   #- {title: "Automated Game Bot", url:""}
   #- {title: "Spotify Music Controller", url:""}
   #- {title: "Discord Music Bot", url:""}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {file: "/MichaelNg.pdf", title:"Resume", icon:file-pdf}
+  - {file: "/MichaelNg.pdf", title: "Resume", icon: file-pdf}
   - {title: Mail, icon: envelope, url: "mailto:mnguyen4527@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/mnguyen64"}
   - {title: LinkedIn, icon: linkedin-in, url: "https://linkedin.com/in/mnguyen64"}
