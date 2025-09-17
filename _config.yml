@@ -19,6 +19,7 @@ show_minimal: false             # remove all clutter
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - { title: "Resume", url: "/MichaelNg.pdf" }
+  - { title: "Archive", url: "/archive.html" }
   #- {title: "Automated Game Bot", url:""}
   #- {title: "Spotify Music Controller", url:""}
   #- {title: "Discord Music Bot", url:""}
