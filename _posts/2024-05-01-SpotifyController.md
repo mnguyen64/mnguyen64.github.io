@@ -1,5 +1,4 @@
 ---
-title:  "Spotify Music Controller"
+title: "Spotify Music Controller"
 layout: post
 ---
-
