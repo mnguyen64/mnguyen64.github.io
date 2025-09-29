@@ -1,38 +1,15 @@
-title: "Michael Nguyen"
-author: "Michael Nguyen"
-description: "My blog"
-permalink: /:title/
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
+---
+title: "Projects"
+layout: default
+---
 
-# Layout
+Projects not updated yet and live demos/tutorials not yet available. Read projects here instead if you haven't read my resume already!
 
-show_excerpts: false             # show article excerpts instead of archive list on the home page
-show_frame: true                # display a grey frame on large screens
-show_sidebar: false             # show a sidebar instead of the usual header
-show_minimal: false             # remove all clutter
-
-#show_frame: "/assets/images/background.svg"
-
-# Menu                          # for available icons see https://fontawesome.com/v5/icons/
-
-navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - { title: "Resume", url: "/MichaelNg.pdf" }
-  - { title: "Archive", url: "/archive/" }
-  #- {title: "Automated Game Bot", url:""}
-  #- {title: "Spotify Music Controller", url:""}
-  #- {title: "Discord Music Bot", url:""}
-
-external:                       # accepts {file, title, url, icon, sidebaricon}
-  #- {file: "/MichaelNg.pdf", title: "Resume", icon: file-pdf}
-  - {title: Mail, icon: envelope, url: "mailto:mnguyen4527@gmail.com"}
-  - {title: Github, icon: github, url: "https://github.com/mnguyen64"}
-  - {title: LinkedIn, icon: linkedin-in, url: "https://linkedin.com/in/mnguyen64"}
-
-comments:
-#  disqus_shortname: ""         # see https://disqus.com
-#  isso_domain: ""              # see https://isso-comments.de
-
-plugins:
- - jekyll-feed
+<main>
+  <header><h1>{{ include.title | default: page.title }}</h1></header>
+  <nav class="smooth">
+    {% for post in site.posts %}
+    <div><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+    {% endfor %}
+  </nav>
+</main>
